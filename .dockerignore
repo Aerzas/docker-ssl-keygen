@@ -1,0 +1,9 @@
+# Docker
+.dockerignore
+Dockerfile
+
+# Git
+**/.git/
+
+# Text files
+**/*.md

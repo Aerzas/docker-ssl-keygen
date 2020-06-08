@@ -20,7 +20,7 @@ docker run \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION=Faering \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT=Docker \
     -e SITE_DOMAIN=docker.test \
-    faering/ssl-keygen:1.0.0;
+    faering/ssl-keygen:1.0.2;
 ```
 
 ## Environment Variables

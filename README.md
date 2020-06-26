@@ -2,7 +2,7 @@
 
 Minimalist helper docker container to generate self-signed certificates.
 
-Docker Hub image: [https://hub.docker.com/r/faering/ssl-keygen](https://hub.docker.com/r/faering/ssl-keygen)
+Docker Hub image: [https://hub.docker.com/r/aerzas/ssl-keygen](https://hub.docker.com/r/aerzas/ssl-keygen)
 
 ## Usage example
 
@@ -17,10 +17,10 @@ docker run \
     -e OPENSSL_CERTIFICATE_SUBJECT_COUNTRY=CH \
     -e OPENSSL_CERTIFICATE_SUBJECT_STATE=FR \
     -e OPENSSL_CERTIFICATE_SUBJECT_LOCATION=Fribourg \
-    -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION=Faering \
-    -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT=Docker \
+    -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION=Docker \
+    -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT=Aerzas \
     -e SITE_DOMAIN=docker.test \
-    faering/ssl-keygen:1.0.2;
+    aerzas/ssl-keygen:1.0.2;
 ```
 
 ## Environment Variables

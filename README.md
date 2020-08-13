@@ -20,7 +20,7 @@ docker run \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION=Docker \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT=Aerzas \
     -e SITE_DOMAIN=docker.test \
-    aerzas/ssl-keygen:1.0.2;
+    aerzas/ssl-keygen:1.0.3;
 ```
 
 ## Environment Variables

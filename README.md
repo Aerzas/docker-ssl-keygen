@@ -20,21 +20,21 @@ docker run \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION=Docker \
     -e OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT=Aerzas \
     -e SITE_DOMAIN=docker.test \
-    aerzas/ssl-keygen:1.0.3;
+    aerzas/ssl-keygen:latest;
 ```
 
 ## Environment Variables
 
-| Variable | Default Value
-| --- | ---
-| `OPENSSL_CERTIFICATE_EXPIRATION` | `825`
-| `OPENSSL_CERTIFICATE_HASH` | `sha512`
-| `OPENSSL_CERTIFICATE_SUBJECT_COUNTRY` | `CO`
-| `OPENSSL_CERTIFICATE_SUBJECT_STATE` | `ST`
-| `OPENSSL_CERTIFICATE_SUBJECT_LOCATION` | `Location`
-| `OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION` | `Organization`
-| `OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT` | `Organization unit`
-| `OPENSSL_KEY_SIZE` | `4096`
-| `OPENSSL_PRIVATE_KEY_ENCRYPTION` | `des3`
-| `OPENSSL_PRIVATE_KEY_PASSWORD`
-| `SITE_DOMAIN` | `domain.test`
+| Variable                                        | Default Value       |
+|-------------------------------------------------|---------------------|
+| `OPENSSL_CERTIFICATE_EXPIRATION`                | `825`               |
+| `OPENSSL_CERTIFICATE_HASH`                      | `sha512`            |
+| `OPENSSL_CERTIFICATE_SUBJECT_COUNTRY`           | `CO`                |
+| `OPENSSL_CERTIFICATE_SUBJECT_STATE`             | `ST`                |
+| `OPENSSL_CERTIFICATE_SUBJECT_LOCATION`          | `Location`          |
+| `OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION`      | `Organization`      |
+| `OPENSSL_CERTIFICATE_SUBJECT_ORGANIZATION_UNIT` | `Organization unit` |
+| `OPENSSL_KEY_SIZE`                              | `4096`              |
+| `OPENSSL_PRIVATE_KEY_ENCRYPTION`                | `des3`              |
+| `OPENSSL_PRIVATE_KEY_PASSWORD`                  |                     |
+| `SITE_DOMAIN`                                   | `domain.test`       |

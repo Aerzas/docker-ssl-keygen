@@ -1,4 +1,4 @@
-FROM alpine:3.15.0
+FROM alpine:3.16.0
 
 ENV OPENSSL_ROOT="/etc/openssl" \
     OPENSSL_CERTIFICATES="/certificates"
